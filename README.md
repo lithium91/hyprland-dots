@@ -4,6 +4,17 @@ This repository contains dotfiles for Hyprland (Wayland-native compositor) and c
 
 ![literally_me](https://camo.githubusercontent.com/43e5a52898ea4be287096bb93f90c434fc51dad4ba1a56c1b4038b6d1e812fd1/68747470733a2f2f692e67697068792e636f6d2f5254684e30684f5332474f344d2e676966)
 
+<details>
+  <summary>Installation process</summary>
+  
+  1. Run `./setup.sh`
+  
+  2. (Optional) run `sudo ./setup-software.sh` to download and configure sys-level software
+     
+  3. You're done!
+
+</details>
+
 ### TODO:
 - [x] upload dotfiles
 - [ ] add software installation
