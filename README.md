@@ -35,6 +35,8 @@ This repository contains dotfiles for Hyprland (Wayland-native compositor) and c
 - Kitty (terminal emulator)
 - Fuzzel (simple rofi-like menu)
 - Mako (notification daemon)
+- Waybar (as bar)
+
 *indirectly involved:*
 - Thunar (GUI file manager)
 
