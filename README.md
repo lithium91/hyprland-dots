@@ -30,7 +30,12 @@ This repository contains dotfiles for Hyprland (Wayland-native compositor) and c
 ### Decorations:
 
 Terminal theme: Dayfox
+
 Terminal font: Lilex Nerd Font (also used for waybar, etc.)
+
 GTK3/4 theme: elementary
+
 Icon theme: elementary
+
 GUI font: Roboto
+
