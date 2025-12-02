@@ -24,6 +24,11 @@ if [[ -d "$HOME/.config/kitty" ]]; then
 	echo "Existing ~/.config/kitty moved to ~/.config/config.bak.d/kitty"
 fi
 
+if [[ -d "$HOME/.config/waybar" ]]; then
+	mv $HOME/.config/waybar $HOME/.config/config.bak.d/
+	echo "Existing ~/.config/waybar moved to ~/.config/config.bak.d/waybar"
+fi
+
 ln -s $SCRIPT_DIR/config/hypr $HOME/.config/hypr \
 	&& echo "Hyprland configuration linked"
 ln -s $SCRIPT_DIR/config/fuzzel $HOME/.config/fuzzel \
@@ -32,5 +37,7 @@ ln -s $SCRIPT_DIR/config/mako $HOME/.config/mako \
 	&& echo "Mako configuration linked"
 ln -s $SCRIPT_DIR/config/kitty $HOME/.config/kitty \
 	&& echo "Kitty configuration linked"
+ln -s $SCRIPT_DIR/config/waybar $HOME/.config/waybar \
+	&& echo "Waybar configuration linked"
 
 echo "Ready to go!"
