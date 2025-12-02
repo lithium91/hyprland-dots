@@ -5,11 +5,11 @@ This repository contains dotfiles for Hyprland (Wayland-native compositor) and c
 ![literally_me](https://camo.githubusercontent.com/43e5a52898ea4be287096bb93f90c434fc51dad4ba1a56c1b4038b6d1e812fd1/68747470733a2f2f692e67697068792e636f6d2f5254684e30684f5332474f344d2e676966)
 
 ### TODO:
--[x] upload dotfiles
--[] add software installation
--[] add setting gtk theme & gui font
--[] add system-related software setup (eg. ppd, daemons)
--[] add screenshots
+- [x] upload dotfiles
+- [ ] add software installation
+- [ ] add setting gtk theme & gui font
+- [ ] add system-related software setup (eg. ppd, daemons)
+- [ ] add screenshots
 
 ### Screenshots:
 
