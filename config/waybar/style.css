@@ -1,0 +1,42 @@
+window#waybar {
+	font-family: Lilex Nerd Font Propo;
+	font-size: 13pt;
+	background-color: #f6f2ee;
+	color: #534c45;
+	border-bottom: 4 solid #d3c7bb;
+}
+
+.modules-center,
+.modules-left,
+.modules-right {
+	margin-bottom: 2;
+}
+
+.modules-right:last-child {
+	margin-right: 10;
+}
+
+.modules-left:first-child {
+	margin-left: 10;
+}
+
+#workspaces button {
+	padding: 0 8 0 8;
+	margin: 0;
+	font-weight: normal;
+	border-radius: 0;
+	color: #534c45;
+}
+
+#workspaces button.active {
+	background-color: #d3c7bb;
+}
+
+#workspaces button:not(.empty) {
+	padding: 0 4 0 11;
+}
+
+#custom-pwr {
+	font-weight: bold;
+	text-decoration: underline;
+}

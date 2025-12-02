@@ -1,0 +1,57 @@
+{
+	"reload_style_on_change": true,
+	"spacing": 26,
+	"height": 28,
+	
+	"modules-left": ["clock#1","clock#2"],
+	"modules-center": ["hyprland/workspaces"],
+	"modules-right": ["hyprland/language","wireplumber","network","battery"],
+
+	"clock#1": {
+		"format": "t: {:%H:%M}",
+		"tooltip": false
+	},
+	"clock#2": {
+        "format": "d: {:%a %d}",
+		"tooltip": false
+	},
+
+	"hyprland/workspaces": {
+		"format": "{name}{icon}",
+		"format-icons": {
+			"default": "<span rise='-2000' font_size='x-small'></span>",
+			"empty": ""
+		},
+		"persistent-workspaces": {
+			"eDP-1": [1,2,3,4,5],
+			"HDMI-A-1": [6,7,8]
+		}
+	},
+
+	"hyprland/language": {
+		"format": "k: {short}"
+	},
+
+	"wireplumber": {
+		"format": "v: {volume}%",
+		"format-muted": "v: mute"
+	},
+
+	"network": {
+		"format-wifi": "n: {essid}",
+		"format-wired": "n: wired",
+		"format-disconnected": "n: none",
+		"format-disabled": "n: off",
+		"tooltip": false
+	},
+
+	"battery": {
+		"format": "b: {capacity}%",
+	},
+
+	"custom/pwr": {
+		"format": "pwr",
+		"on-click": "$HOME/.config/fuzzel/scripts/fuzzel-powermenu.sh"
+	}
+
+}

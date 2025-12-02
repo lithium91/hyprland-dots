@@ -1,0 +1,26 @@
+font=Mononoki Nerd Font 12
+background-color=#e4dcd4
+text-color=#352c24
+layer=overlay
+width=300
+height=100
+outer-margin=0
+margin=4
+padding=4
+border-size=2
+border-color=#b86e28
+border-radius=0
+progress-color=#828282cc
+max-icon-size=48
+max-visible=3
+
+default-timeout=5000
+output=eDP-1
+
+[app-name=volbright]
+border-size=4
+width=200
+height=50
+anchor=top-center
+
+
