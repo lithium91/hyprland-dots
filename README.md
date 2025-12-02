@@ -24,7 +24,7 @@ This repository contains dotfiles for Hyprland (Wayland-native compositor) and c
 
 ### Screenshots:
 
-*WIP*
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/080051c3-63db-4650-a5ea-453d686ff551" />
 
 ### Software overview:
 
