@@ -20,7 +20,7 @@ This repository contains dotfiles for Hyprland (Wayland-native compositor) and c
 - [ ] add software installation
 - [ ] add setting gtk theme & gui font
 - [ ] add system-related software setup (eg. ppd, daemons)
-- [ ] add screenshots
+- [x] add screenshots
 
 ## Screenshots:
 
